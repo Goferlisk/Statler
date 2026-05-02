@@ -3,12 +3,12 @@ bash
 
 # --- CONFIGURATION ---
 # The folder you want to backup
-SOURCE_DIR="/path/to/appdata"
+SOURCE_DIR="/docker/"
 # Where to save the backup zip
-BACKUP_DEST="/path/to/backups"
+BACKUP_DEST="/backups/"
 # Filename format: backup_YYYY-MM-DD.zip - NOTE TO ADD SYSTEM NAME FOR CLARITY - add script to github 
 DATE=$(date +"%Y-%m-%d")
-FILENAME="1gbappdata_backup_$DATE.zip"
+FILENAME="statler_backup_$DATE.zip"
 
 # 1. Stop all running containers
 echo "Stopping all Docker containers..."
