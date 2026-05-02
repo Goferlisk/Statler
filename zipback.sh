@@ -2,6 +2,7 @@ bash
 #!/bin/bash
 
 # --- CONFIGURATION ---
+# This must be run as sudo to properly complete
 # The folder you want to backup
 SOURCE_DIR="/docker/"
 # Where to save the backup zip
